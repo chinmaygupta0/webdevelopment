@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        *{
+            
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            
+        }
+        .container{
+            background-color: #00ffa9;
+            border: 3px solid black;
+            padding: 22px 33px 44px 55px; /*padding/margin= top right bottom left*/ 
+            /*padding Y(top/bottom) X(left right)*/ 
+            margin: 30px;
+            width: 199px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>this is heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus nobis odio rerum odit repudiandae nulla, voluptatum itaque reprehenderit quis nemo repellendus quos praesentium iusto numquam, voluptas sequi amet. Quas, provident. Nesciunt.
+        </p>
+    </div>
+    <div class="container">
+        <h3>this is heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus nobis odio rerum odit repudiandae nulla, voluptatum itaque reprehenderit quis nemo repellendus quos praesentium iusto numquam, voluptas sequi amet. Quas, provident. Nesciunt.
+        </p>
+    </div>
+    <div class="container">
+        <h3>this is heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus nobis odio rerum odit repudiandae nulla, voluptatum itaque reprehenderit quis nemo repellendus quos praesentium iusto numquam, voluptas sequi amet. Quas, provident. Nesciunt.
+        </p>
+    </div>
+
+    
+</body>
+</html>

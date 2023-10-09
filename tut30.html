@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+    <style>
+h1{
+
+background-color: red;
+color: black;
+font-weight: bold;
+text-align: center;
+
+}
+/* if p is contained by any li which is contained by div */
+/* div li p{
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+} */
+
+/* if p is right inside div this css will be applied */
+/* div > p{
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+} */
+
+/* p is right after div i.e p is next sibbling of div */
+/* 
+div + p{
+    color: red;
+    background-color: orchid;
+} */
+    </style>
+</head>
+<body>
+    <h1>this is more on  selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>this is paragriph</p></li>
+                <li>no effect</li>
+                <li>this is paragraph</li>
+            </ul>
+            <p>this is a para</p>
+        </div>
+        <p>        this is another para
+        </p>
+    </div>
+    <p>this is bahar</p>
+    
+</body>
+</html>

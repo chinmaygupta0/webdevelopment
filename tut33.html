@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            /* border: 2px solid red; */
+            padding: 30px 10px ;
+            margin: 30px 12px;
+            background-color: yellow;
+            /* box-shadow: offset-x offset-y color ; */
+            /* box-shadow: offset-x offset-y blur-radius color ; */
+            /* box-shadow: offset-x offset-y blur-radius spread-radius color ; */
+            /* box-shadow: 10px 10px yellow; */
+            /* box-shadow: -10px -10px yellow; */
+            /* box-shadow: 10px 10px 5px yellow; */
+            /* box-shadow: -10px -10px 10px 3px yellow; */
+            /* box-shadow: -10px -10px 10px 34px rgba(71, 172, 172, 0.5); */
+            box-shadow: inset 3px 5px green;
+
+            box-shadow: inset 3px 5px green, 4px 6px red;
+        }
+        .card h2{
+                /* text-shadow: 1px 2px white; */
+                /* text-shadow: 3px 2px 6px white; */
+                text-shadow: -3px -2px 3px white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="car-1">
+           <h2>This is c++ course</h2> 
+           <p> I have started c++ course which does not mean that we will stop this course. will stop this course to complete .Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, repudiandae nam non quis aliquam laborum libero, rerum neque eius nemo dolores sed natus in eum eligendi aperiam ratione! Repellendus debitis cumque maxime perspiciatis beatae!</p>
+        </div>
+        <div class="card" id="car-2">
+            <h2>This is html course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque optio laudantium ipsum modi rem ratione tempora! Reprehenderit, nisi dolore. Totam reiciendis quis at tenetur? Nostrum facilis aut quasi sint necessitatibus eos rerum!</p>
+        </div>
+        <div class="card" id="car-3">
+            <h2>Card3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus temporibus eligendi mollitia ad dignissimos sint autem officiis ipsam, consectetur eveniet doloremque nemo libero laboriosam sed, repellendus provident. Sit distinctio optio quibusdam modi.</p>
+        </div>
+    </div>
+</body>
+</html>
